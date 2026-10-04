@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16">
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center text-blue-600">
                  <img 
                   src="/logo.svg" 
                   alt="Logo" 
