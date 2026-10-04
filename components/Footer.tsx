@@ -11,13 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16">
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl flex items-center justify-center text-blue-600">
                  <img 
                   src="/logo.svg" 
                   alt="Logo" 
-                  className="w-full h-full object-contain" 
+                  className="w-9 h-9 object-contain" 
                 />
-              </div>
               <div className="flex flex-col text-left leading-tight">
                 <span className="text-lg font-extrabold text-slate-900">XL <span className="text-blue-600">SATU</span></span>
                 <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Direct Sales Partner</span>
