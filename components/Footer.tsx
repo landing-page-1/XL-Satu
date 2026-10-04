@@ -12,7 +12,11 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-9 h-9 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600">
-                <Wifi size={22} className="text-emerald-500" />
+                 <img 
+                  src="/logo.svg" 
+                  alt="Logo" 
+                  className="w-full h-full object-contain" 
+                />
               </div>
               <div className="flex flex-col text-left leading-tight">
                 <span className="text-lg font-extrabold text-slate-900">XL <span className="text-blue-600">SATU</span></span>
