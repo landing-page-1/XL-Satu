@@ -28,3 +28,22 @@ export default function Home() {
     </div>
   );
 }
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="id">
+      <body>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18499693351">
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-18499693351');
+        </script>
+      </body>
+    </html>
+  );
+}
