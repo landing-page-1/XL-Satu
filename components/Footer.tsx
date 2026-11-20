@@ -1,5 +1,5 @@
 import React from "react";
-import { Wifi, MessageSquare, Clock, ShieldCheck, Headset } from "lucide-react";
+import { Wifi, MessageSquare, Clock, ShieldCheck, Headset, Mail } from "lucide-react";
 import { waNumber } from "@/data/content";
 
 export default function Footer() {
@@ -11,11 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16">
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-white border border-slate-200 flex items-center justify-center shadow-sm overflow-hidden p-1 shrink-0">
+              <div className="w-9 h-9 rounded-xl overflow-hidden shadow-sm shrink-0">
                 <img 
-                  src="/logo.svg" 
-                  alt="Logo XL" 
-                  className="w-full h-full object-contain" 
+                  src="/icon.svg" 
+                  alt="Internet Cepat ID" 
+                  className="w-full h-full object-cover" 
                 />
               </div>
               <div className="flex flex-col text-left leading-tight">
@@ -73,6 +73,15 @@ export default function Footer() {
                 <div>
                   <p className="font-bold text-slate-900 mb-1">Jam Operasional Sales</p>
                   <p className="font-medium">Setiap Hari: 08.00 - 21.00 WIB</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Mail size={18} className="text-blue-600 mt-0.5 shrink-0" />
+                <div>
+                  <p className="font-bold text-slate-900 mb-1">Email Layanan</p>
+                  <a href="mailto:info@internetcepat.id" className="hover:text-blue-600 font-medium transition-colors">
+                    info@internetcepat.id
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">

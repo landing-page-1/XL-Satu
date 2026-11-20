@@ -12,9 +12,12 @@ export const metadata: Metadata = {
   title: "Internet Cepat ID - Partner Penjualan Internet Rumah XL Satu | Promo FWA & FTTH",
   description: "Internet Cepat, Stabil, & Unlimited Untuk Rumah & Usaha. Dapatkan promo paket XL SATU Fiber dan FWA melalui Internet Cepat ID, partner penjualan mandiri terdaftar.",
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icon.svg",
   },
 };
 

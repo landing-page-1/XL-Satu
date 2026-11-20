@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWa from "@/components/FloatingWa";
 import Link from "next/link";
-import { Info, MessageSquare, Phone } from "lucide-react";
+import { Info, MessageSquare, Phone, Mail } from "lucide-react";
 import { createWaLink, waNumber } from "@/data/content";
 
 export const metadata = {
@@ -55,6 +55,9 @@ export default function TentangKami() {
                 <div className="mt-4 p-4 rounded-xl bg-slate-100 space-y-2">
                   <p className="flex items-center gap-2 text-slate-800 font-semibold">
                     <Phone size={18} className="text-emerald-600" /> WhatsApp Hotline: 0878-7410-3003
+                  </p>
+                  <p className="flex items-center gap-2 text-slate-800 font-semibold">
+                    <Mail size={18} className="text-blue-600" /> Email Layanan: info@internetcepat.id
                   </p>
                   <p className="flex items-center gap-2 text-slate-600 text-sm">
                     <MessageSquare size={18} className="text-blue-600" /> Jam Operasional: 08.00 - 21.00 WIB (Setiap Hari)

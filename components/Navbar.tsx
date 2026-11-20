@@ -53,11 +53,11 @@ export default function Navbar() {
         <div className="max-w-[1240px] mx-auto px-4 md:px-8 flex items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-10 h-10 rounded-xl bg-blue-50/80 border border-blue-100 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform overflow-hidden p-1.5 shrink-0">
+              <div className="w-10 h-10 rounded-xl overflow-hidden shadow-sm group-hover:scale-105 transition-transform shrink-0">
                 <img 
-                  src="/logo.svg" 
-                  alt="Logo XL" 
-                  className="w-full h-full object-contain" 
+                  src="/icon.svg" 
+                  alt="Internet Cepat ID" 
+                  className="w-full h-full object-cover" 
                 />
               </div>
               <div className="flex flex-col text-left leading-tight">
