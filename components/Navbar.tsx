@@ -20,21 +20,24 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 shadow-sm transition-all duration-300">
       {/* Top Promo Bar */}
-      <div className="bg-slate-900 text-white py-1.5 px-4 md:px-8">
+      <div className="bg-slate-900 text-white py-1.5 px-4 md:px-8 border-b border-slate-800">
         <div className="max-w-[1240px] mx-auto flex flex-wrap items-center justify-between gap-y-1 gap-x-6 text-center md:text-left text-xs md:text-sm">
           <div className="flex items-center gap-2 mx-auto md:mx-0 text-left">
-            <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 font-bold uppercase tracking-wider text-[10px] md:text-xs">
-              Promo Kilat
+            <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 font-bold uppercase tracking-wider text-[10px] md:text-xs">
+              Partner Penjualan Mandiri
             </span>
-            <span className="font-semibold text-slate-100 flex items-center gap-1">
-              Pemasangan Gratis & Promo Pay 3 Get 4 Bulan Internet
+            <span className="font-medium text-slate-300 text-xs hidden sm:inline">
+              Layanan Penjualan Paket XL SATU (Bukan Situs Resmi PT XL Axiata Tbk)
+            </span>
+            <span className="font-semibold text-emerald-400 text-xs sm:ml-2">
+              • Promo Pasang Baru & Konsultasi Area
             </span>
           </div>
           <div className="hidden md:flex items-center gap-4">
-            <span className="font-semibold text-slate-300">Hotline Resmi WhatsApp:</span>
+            <span className="font-semibold text-slate-300">Hotline Sales WhatsApp:</span>
             <a
               className="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1 font-bold"
-              href={createWaLink("Halo Sales XL SATU, saya ingin info promo")}
+              href={createWaLink("Halo Sales Internet Cepat ID, saya ingin info promo XL SATU")}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,20 +52,20 @@ export default function Navbar() {
       <div className={`transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur-md shadow-md py-3" : "bg-white/90 backdrop-blur-xl py-4"}`}>
         <div className="max-w-[1240px] mx-auto px-4 md:px-8 flex items-center justify-between gap-6">
           <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center text-blue-900 shadow-sm group-hover:scale-105 transition-transform overflow-hidden p-2">
+            <Link href="/" className="flex items-center gap-2.5 group">
+              <div className="w-10 h-10 rounded-xl bg-blue-50/80 border border-blue-100 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform overflow-hidden p-1.5 shrink-0">
                 <img 
                   src="/logo.svg" 
-                  alt="Logo" 
+                  alt="Logo XL" 
                   className="w-full h-full object-contain" 
                 />
               </div>
               <div className="flex flex-col text-left leading-tight">
                 <span className="text-xl font-extrabold tracking-tight text-slate-900 flex items-center gap-1">
-                  XL <span className="text-blue-600">SATU</span>
+                  Internet Cepat <span className="text-blue-600">ID</span>
                 </span>
-                <span className="text-[10px] text-slate-500 tracking-widest uppercase font-semibold">
-                  Mitra Resmi Sales
+                <span className="text-[10px] text-slate-500 tracking-wide font-medium">
+                  Partner Penjualan Internet Rumah XL Satu
                 </span>
               </div>
             </Link>

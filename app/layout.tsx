@@ -9,8 +9,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "XL SATU & XL Internet | Promo Terbaik",
-  description: "Internet Cepat, Stabil, & Unlimited Untuk Rumah & Usaha. Daftar paket XL SATU Fiber dan FWA sekarang.",
+  title: "Internet Cepat ID - Partner Penjualan Internet Rumah XL Satu | Promo FWA & FTTH",
+  description: "Internet Cepat, Stabil, & Unlimited Untuk Rumah & Usaha. Dapatkan promo paket XL SATU Fiber dan FWA melalui Internet Cepat ID, partner penjualan mandiri terdaftar.",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

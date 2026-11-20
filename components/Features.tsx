@@ -6,10 +6,10 @@ export default function Features() {
     <section id="keunggulan" className="w-full bg-slate-50 py-24">
       <div className="max-w-[1240px] mx-auto px-4 md:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">Kenapa Memilih XL Internet?</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Lebih Cepat • Lebih Stabil • Lebih Baik</h2>
+          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">Keunggulan Layanan XL SATU</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Koneksi Cepat, Stabil & Hemat</h2>
           <p className="text-base text-slate-600 mt-4">
-            Dukungan infrastruktur telekomunikasi terdepan untuk kenyamanan belajar, hiburan, bekerja, dan bisnis.
+            Pilihan koneksi internet rumah berkualitas untuk kebutuhan kerja, sekolah online, streaming hiburan, dan usaha.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function Features() {
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">Sales Responsif</h3>
             <p className="text-sm text-slate-600 flex-1 leading-relaxed">
-              Konsultasi gratis, pengecekan sinyal instan via WhatsApp, dan penjadwalan teknisi resmi tanpa birokrasi berbelit.
+              Konsultasi gratis, pengecekan sinyal instan via WhatsApp, dan penjadwalan teknisi terverifikasi tanpa birokrasi berbelit.
             </p>
           </div>
         </div>

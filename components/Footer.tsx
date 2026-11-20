@@ -10,19 +10,21 @@ export default function Footer() {
       <div className="max-w-[1240px] mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16">
           <div className="lg:col-span-2 space-y-6">
-            <div className="flex items-center gap-2">
-                 <img 
+            <div className="flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-xl bg-white border border-slate-200 flex items-center justify-center shadow-sm overflow-hidden p-1 shrink-0">
+                <img 
                   src="/logo.svg" 
-                  alt="Logo" 
-                  className="w-9 h-9 object-contain" 
+                  alt="Logo XL" 
+                  className="w-full h-full object-contain" 
                 />
+              </div>
               <div className="flex flex-col text-left leading-tight">
-                <span className="text-lg font-extrabold text-slate-900">XL <span className="text-blue-600">SATU</span></span>
-                <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Direct Sales Partner</span>
+                <span className="text-lg font-extrabold text-slate-900">Internet Cepat <span className="text-blue-600">ID</span></span>
+                <span className="text-[10px] text-slate-500 font-semibold tracking-wide">Partner Penjualan Internet Rumah XL Satu</span>
               </div>
             </div>
             <p className="text-sm text-slate-600 max-w-sm leading-relaxed">
-              Layanan registrasi resmi internet rumah cepat & stabil XL SATU Fiber (FTTH) dan XL SATU Lite (FWA) dengan kuota keluarga tanpa ribet.
+              Layanan konsultasi dan pendaftaran mandiri internet rumah cepat & stabil XL SATU Fiber (FTTH) dan XL SATU Lite (FWA) dengan kuota keluarga tanpa ribet.
             </p>
             <div className="pt-2">
               <div className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-200 text-slate-800 font-semibold text-xs border border-slate-300">
@@ -44,13 +46,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-slate-900 mb-6">Bantuan & Panduan</h4>
+            <h4 className="text-lg font-bold text-slate-900 mb-6">Bantuan & Legal</h4>
             <ul className="space-y-3 text-sm text-slate-600 font-medium">
-              <li><a href="#cara-daftar" className="hover:text-blue-600 transition-colors">Prosedur Registrasi</a></li>
-              <li><a href="#cara-daftar" className="hover:text-blue-600 transition-colors">Jadwal Teknisi Pasang</a></li>
-              <li><a href="#faq" className="hover:text-blue-600 transition-colors">FAQ & Syarat Ketentuan</a></li>
-              <li><a href="#keunggulan" className="hover:text-blue-600 transition-colors">Keunggulan Layanan</a></li>
-              <li><a href="#cara-daftar" className="hover:text-blue-600 transition-colors">Status Pengajuan</a></li>
+              <li><a href="#cara-daftar" className="hover:text-blue-600 transition-colors">Prosedur Registrasi Mandiri</a></li>
+              <li><a href="#faq" className="hover:text-blue-600 transition-colors">FAQ Seputar XL SATU</a></li>
+              <li><a href="/kebijakan-privasi" className="hover:text-blue-600 transition-colors">Kebijakan Privasi</a></li>
+              <li><a href="/syarat-ketentuan" className="hover:text-blue-600 transition-colors">Syarat & Ketentuan</a></li>
+              <li><a href="/tentang-kami" className="hover:text-blue-600 transition-colors">Tentang Kami / Disclaimer</a></li>
             </ul>
           </div>
 
@@ -77,7 +79,7 @@ export default function Footer() {
                 <ShieldCheck size={18} className="text-blue-600 mt-0.5 shrink-0" />
                 <div>
                   <p className="font-bold text-slate-900 mb-1">Verifikasi Layanan</p>
-                  <p className="font-medium">Pendaftaran 100% Resmi & Aman</p>
+                  <p className="font-medium">Pendaftaran Terdaftar, Aman & Terpercaya</p>
                 </div>
               </div>
             </div>
@@ -86,10 +88,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
           <p className="text-xs text-slate-500 max-w-2xl leading-relaxed">
-            Disclaimer: Website ini dikelola oleh Tim Mitra Penjualan Resmi XL SATU untuk memfasilitasi konsultasi, registrasi paket baru, dan cek jangkauan jaringan. Seluruh merek dagang dan hak cipta XL Axiata dimiliki oleh PT XL Axiata Tbk.
+            <strong className="text-slate-600">Disclaimer:</strong> Website Internet Cepat ID (internetcepat.id) dikelola oleh Partner Penjualan Mandiri / Agen Pemasaran Terdaftar untuk membantu proses informasi, cek jangkauan jaringan, dan pendaftaran paket internet rumah XL SATU. Website ini BUKAN website resmi dari PT XL Axiata Tbk. Seluruh logo, merek dagang, dan nama produk XL SATU dimiliki sepenuhnya oleh PT XL Axiata Tbk.
           </p>
           <p className="text-xs text-slate-400 font-medium shrink-0">
-            © 2026 Sales XL SATU & XL Internet. All rights reserved.
+            © 2026 Internet Cepat ID. All rights reserved.
           </p>
         </div>
       </div>

@@ -42,7 +42,7 @@ export const fwaPackages = [
     duration: "Paket 3 Bulan",
     speed: 100,
     price: "Rp 721.500",
-    monthlyEquivalent: "Termasuk Pajak Resmi",
+    monthlyEquivalent: "Termasuk Pajak (PPN 11%)",
     features: [
       "Gratis Vidio Lite",
       "Gratis Catchplay+",

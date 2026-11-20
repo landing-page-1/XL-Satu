@@ -9,7 +9,7 @@ export default function FloatingWa() {
         href={createWaLink("Halo Sales XL SATU, saya ingin berlangganan wifi")}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat WhatsApp Sales XL SATU"
+        aria-label="Chat WhatsApp Sales Internet Cepat ID"
         className="group flex items-center gap-3 pl-4 pr-5 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1"
       >
         <div className="relative flex items-center justify-center">

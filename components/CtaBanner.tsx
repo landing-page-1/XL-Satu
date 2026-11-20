@@ -21,7 +21,7 @@ export default function CtaBanner() {
                 Mau Cek Jangkauan Area atau Tanya Promo Terbaik?
               </h2>
               <p className="text-lg text-blue-100 max-w-xl">
-                Sales representatif resmi kami siap mengecek titik kover Fiber/FWA di lokasi Anda dalam hitungan menit tanpa ribet.
+                Tim sales partner mandiri kami siap mengecek titik kover Fiber/FWA di lokasi Anda dalam hitungan menit tanpa ribet.
               </p>
             </div>
             

@@ -19,7 +19,7 @@ export default function Steps() {
     {
       num: 3,
       title: "Verifikasi & Pembayaran",
-      desc: "Isi data pelanggan resmi secara aman. Pembayaran dilakukan via channel resmi XL Axiata setelah konfirmasi paket.",
+      desc: "Isi formulir data pelanggan secara aman. Pembayaran tagihan dilakukan langsung melalui channel perbankan / virtual account terdaftar setelah konfirmasi paket.",
       bgColor: "bg-blue-800",
       textColor: "text-white"
     },

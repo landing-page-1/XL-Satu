@@ -14,9 +14,11 @@ export default function Hero() {
         <div className="flex flex-wrap items-center gap-3 mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-600 text-white text-xs font-bold uppercase tracking-wider shadow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-            XL SATU & XL INTERNET
+            PROMO PAKET XL SATU
           </span>
-          <span className="text-sm font-semibold text-blue-200">Solusi Digital Untuk Hidup Lebih Mudah</span>
+          <span className="text-xs md:text-sm font-medium text-blue-200/90 bg-white/10 px-3 py-1 rounded-full border border-white/10">
+            Partner Penjualan Mandiri Terdaftar
+          </span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
