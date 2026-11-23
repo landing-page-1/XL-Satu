@@ -43,6 +43,23 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
+            document.addEventListener('click', function(e) {
+              var anchor = e.target && e.target.closest ? e.target.closest('a') : null;
+              if (!anchor) return;
+              var href = anchor.getAttribute('href') || '';
+              if (href.indexOf('wa.me/') !== -1) {
+                window.dataLayer.push({
+                  event: 'whatsapp_click',
+                  whatsapp_url: href,
+                  link_text: (anchor.innerText || '').trim()
+                });
+                gtag('event', 'conversion', {
+                  event_category: 'WhatsApp',
+                  event_label: href
+                });
+              }
+            });
           `}
         </Script>
       </body>
